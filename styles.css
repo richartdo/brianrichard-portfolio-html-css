@@ -850,3 +850,132 @@ p {
 .footer .social-icons a:hover {
     color: #1da1f2; 
 }
+
+
+
+
+/* Responsiveness */
+/* Default styles (for laptops & tablets remain unchanged) */
+
+/* Mobile Styles - Adjusting for screens below 768px */
+@media screen and (max-width: 768px) {
+    /* Ensure the body fits properly */
+    .body {
+        width: 95%;
+        margin: 0 auto;
+        padding: 10px;
+    }
+
+    /* Navigation */
+    .nav {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    /* Hero section */
+    .heroes {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .heroes .profile img {
+        width: 80%; /* Scale down profile image */
+        max-width: 250px;
+    }
+
+    /* About Section */
+    .about {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-image img {
+        width: 80%;
+        max-width: 280px;
+    }
+
+    /* Skills Section */
+    .my-skills ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .my-skills li {
+        width: 100%;
+        text-align: center;
+    }
+
+    /* Education Section */
+    .education {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .education-img img {
+        width: 80%;
+        max-width: 280px;
+    }
+
+    /* Projects Section */
+    .projects-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .project-card {
+        width: 90%;
+        margin-bottom: 15px;
+    }
+
+    /* Achievements Section */
+    .achievements-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    /* Buttons */
+    .button-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    /* Footer */
+    .footer {
+        text-align: center;
+        padding: 10px;
+    }
+}
+
+/* Small Phones (Below 480px) */
+@media screen and (max-width: 480px) {
+    .heroes .profile img {
+        width: 70%;
+        max-width: 220px;
+    }
+
+    .about-image img {
+        width: 75%;
+        max-width: 250px;
+    }
+
+    .education-img img {
+        width: 75%;
+        max-width: 250px;
+    }
+
+    .projects-container {
+        width: 100%;
+    }
+
+    .project-card {
+        width: 95%;
+    }
+
+    .button-container {
+        width: 100%;
+    }
+}
