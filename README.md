@@ -15,11 +15,14 @@ I received valuable feedback from the following members of my peer group:
 - **Anifar Mariba**
 - **Faith Sawe**
 - **Realboga Matshedisho**
+- **Raphael from Nigeria**
 
 They all provided positive feedback on the project, which helped refine and improve it further.
 
 ## Project Status
 Currently, my projects are incomplete as I have been focusing on tutorials to perfect my skills. Due to the limitations of my current device, which does not allow me to handle heavy projects, I am primarily working on skill development. Occasionally, when I have access to a more stable device—sometimes borrowed from a friend—I work on developing projects.
+
+Most of the projects showcased are still in their Minimum Viable Product (MVP) stage. I have not worked on them to full completion yet, but I'm actively looking forward to fully implementing and refining them in the future.
 
 ## Installation
 To run this project locally:
